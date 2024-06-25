@@ -5,3 +5,6 @@ config/
 # Ignore les fichiers de logs et de cache
 /logs/
 /cache/
+
+# Ignore les dépendances locales
+/node_modules/
