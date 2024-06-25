@@ -1,0 +1,22 @@
+<section id="tutoriel" class="marginSectiontutorial"  data-current-page="tutoriel">
+
+    {% include 'nav.html.twig' %}
+    <section id="tutorialSection">
+        <div class="tutorielDiv" style="">
+            <p class="creepster-regular h2Tutoriel animated-element">Tutoriels</p>
+        </div>
+            <div class="divList">
+                <ul class="ulTutorial">
+                    <li class="liSuspension" style="">tuto suspension</li>
+                    <li class="liLampe">tuto lampe</li>
+                    <li class="applyToWall">tuto applique murale</li>
+                </ul>
+            </div>
+        <div class="divVideo">
+            <video class="video" width="500" height="500" controls>
+                <source src="{{ asset('/pictures/LeRecifTutoriel.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+</section>
