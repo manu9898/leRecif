@@ -1,0 +1,7 @@
+# Ignore les dossiers
+vendor/
+config/
+
+# Ignore les fichiers de logs et de cache
+/logs/
+/cache/
